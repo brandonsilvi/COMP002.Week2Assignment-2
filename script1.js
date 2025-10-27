@@ -7,3 +7,24 @@
 // ###
 // ##
 // #
+console.log("Triangle Pattern using # too display triangle that is 4 long at its peak");
+
+Let peak = 4;
+
+
+//splitting the triangle into an ascending and descending part
+
+//ascending
+for (let i = 1; i <= peak; i++)
+    for (let j = 1; j <= i; j++) {
+output = output + "#";
+}
+console.log(output);
+
+//descending
+for (let i = peak - 1; i >= 1; i--) {
+    for (let j = 1; j <= i; j++) {
+        output = output + "#";
+    }
+    console.log(output);
+}
