@@ -17,6 +17,7 @@ let output = "";
 
 //ascending
 for (let i = 1; i <= rows; i++) {
+    output = "";
     for (let j = 1; j <= i; j++) {
         output = output + "#";
     }
@@ -25,6 +26,7 @@ for (let i = 1; i <= rows; i++) {
 
 //descending
 for (let i = rows - 1; i >= 1; i--) {
+    output = "";
     for (let j = 1; j <= i; j++) {
         output = output + "#";
     }
